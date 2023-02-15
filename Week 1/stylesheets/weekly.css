@@ -1,0 +1,72 @@
+h1,h2 {
+  font-size: 40px;
+  color: #473E3EFF;
+  margin: 12px 0 0;;
+}
+h3{
+  font-size: 24px;
+  color: rgb(78, 13, 5);
+  margin: 0;
+}
+
+header p{
+  margin-bottom: 30px;
+}
+
+main p{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  color: rgb(150, 52, 34)
+}
+
+ol {
+  list-style: none;
+  padding: 0 0 0 0;
+}
+ol li {
+  font-weight: bold;
+  width: 400px;
+  background-color: #DF887CFF;
+  border-radius: 16px;
+  margin: 20px auto 0 auto;
+  padding: 16px;
+}
+.main-goal{
+  background-color: rgb(255, 120, 103);
+}
+
+.initial-goal{
+  background-color:rgb(236, 107, 122);
+}
+
+#home {
+  list-style: none;
+  margin: 12px;
+  width: auto;
+  
+}
+#home a {
+  border: 1px solid #A7014EFF;
+  padding: 8px 12px 8px 12px;
+  background-color: #A7014EFF;
+  color: whitesmoke;
+  font-size: 24px;
+  border-radius: 8px;
+  margin: 4px 4px 4px 4px;
+}
+#home a:hover {
+  background-color: #B40C5AFF;
+  text-decoration: none;
+}
+
+.lessons {
+  list-style: none;
+}
+
+ul {
+  font-family: 'Fira Sans', sans-serif;
+  list-style: inside square;
+  margin: 30px;
+}
+
+/*# sourceMappingURL=weekly.css.map */
