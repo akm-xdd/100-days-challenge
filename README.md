@@ -7,4 +7,4 @@ This challenge does not represent my knowledge in the field of Web Development, 
 I have taken this challenge to keep up and add to my existing knowledge every week.
 
 
-Current Goal: Do my weekly uploads on time
+Current Goal: Do my weekly module uploads on time
