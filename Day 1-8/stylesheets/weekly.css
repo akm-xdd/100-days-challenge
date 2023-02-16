@@ -1,12 +1,12 @@
 h1,h2 {
   font-size: 40px;
   color: #473E3EFF;
-  margin: 12px 0 0;;
+  margin: 15px 0 0px auto ;
 }
 h3{
   font-size: 24px;
   color: rgb(78, 13, 5);
-  margin: 0;
+  margin: 15px;
 }
 
 header p{
@@ -17,6 +17,10 @@ main p{
   margin-top: 8px;
   margin-bottom: 8px;
   color: rgb(150, 52, 34)
+}
+
+#upcoming{
+  margin:0;
 }
 
 ol {
@@ -30,8 +34,10 @@ ol li {
   border-radius: 16px;
   margin: 20px auto 0 auto;
   padding: 16px;
+  box-shadow: 1px 1px 5px  rgba(0, 0 , 0, 0.2);
 }
 .main-goal{
+  margin-top:0;
   background-color: rgb(255, 120, 103);
 }
 
@@ -52,7 +58,8 @@ ol li {
   color: whitesmoke;
   font-size: 24px;
   border-radius: 8px;
-  margin: 4px 4px 4px 4px;
+  /* margin: 4px 4px 4px 4px; */
+  display: inline-block;
 }
 #home a:hover {
   background-color: #B40C5AFF;
