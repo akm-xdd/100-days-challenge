@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Oleo+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+body {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header ul li {
+  font-size: larger;
+  font-weight: bold;
+  text-align: right;
+  margin: 0 10px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: rgb(245, 243, 160);
+  display: block;
+  padding: 10px;
+}
+
+header ul li a:hover {
+  background-color: rgb(245, 243, 160);
+  border-radius: 5px;
+  color: black;
+}
+
+#page-logo a {
+  margin: 10px;
+  padding: 10px;
+  font-family: "Oleo Script", sans-serif;
+  color: rgb(245, 243, 160);
+  font-size: 50px;
+  text-decoration: none;
+  text-shadow: 0 0 5px black;
+}
+
+#page-logo a:hover {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
