@@ -9,6 +9,11 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
 }
 
 ul {
@@ -31,13 +36,15 @@ header ul li {
 
 header ul li a {
   text-decoration: none;
-  color: black;
+  color: rgb(255,251,0);
   display: block;
   padding: 10px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
   
 }
 
 header ul li a:hover {
+  color: black;
   background-color: rgb(245, 243, 160);
   border-radius: 5px;
 }
@@ -55,4 +62,26 @@ header ul li a:hover {
 #page-logo a:hover {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+}
+
+footer{
+  background: linear-gradient(70deg, rgb(24,24,24), rgb(25,29,29));
+  padding: 36px;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+footer ul li{
+  width: 80px;
+  height: 80px;
+  margin: 0 50px;
+}
+
+footer img{
+  width: 100%;
+  height: 100%;
 }
