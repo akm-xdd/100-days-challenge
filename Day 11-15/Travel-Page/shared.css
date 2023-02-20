@@ -31,15 +31,15 @@ header ul li {
 
 header ul li a {
   text-decoration: none;
-  color: rgb(245, 243, 160);
+  color: black;
   display: block;
   padding: 10px;
+  
 }
 
 header ul li a:hover {
   background-color: rgb(245, 243, 160);
   border-radius: 5px;
-  color: black;
 }
 
 #page-logo a {
