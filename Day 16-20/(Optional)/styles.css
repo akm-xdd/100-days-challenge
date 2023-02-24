@@ -9,12 +9,12 @@ a{
 }
 
 #main-header{
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(29,26,24);
-    padding: 0 20px;
+    padding: 0 5%;
 }
 
 #main-header ul{
@@ -25,12 +25,12 @@ a{
 }
 
 #main-header ul li{
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 #main-header ul li a{
     color: rgb(238, 164, 80);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -40,7 +40,7 @@ a{
 }
 
 #logo{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     color: rgb(238, 164, 80);
     text-transform: uppercase;
@@ -49,13 +49,13 @@ a{
 main h1{
     text-align: center;
     color:rgb(238, 164, 80);
-    font-size: 48px;
+    font-size: 3rem;
 
 }
 
 #products{
     width: 80%;
-    margin: 50px auto;
+    margin: 3rem auto;
 }
 
 #products ul{
@@ -76,12 +76,12 @@ main h1{
 }
 
 #food-items-content{
-    padding: 20px;
+    padding: 1rem;
     text-align: center;
 }
 
 .food-items img{
-    height: 240px;
+    height: 15rem;
     width: 100%;
     object-fit: cover;
 }
@@ -90,7 +90,7 @@ main h1{
     display: inline-block;
     background-color: rgb(238, 164, 80);
     color:white;
-    padding: 10px 20px;
+    padding: 0.5rem 1.5rem;
     border-radius: 5px;
     text-transform: uppercase;
     font-weight: bold;
