@@ -9,5 +9,4 @@ I have taken this challenge to keep up and add to my existing knowledge every we
 
 Current Goal: Do my weekly module uploads on time
 
-
-Week 1: Basics of HTML and CSS. Learned about Selectors and Combinators.
+How to use? Download individual folders rather than the entire repo. Open in VS Code. Go Live and start editing
