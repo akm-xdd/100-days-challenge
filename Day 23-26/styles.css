@@ -1,11 +1,24 @@
 body {
-  background-color: rgb(31, 30, 30);
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
+  background-color: rgb(236, 252, 253);
 }
 
 h1 {
   text-align: center;
-  color: white;
+  margin: 2rem;
+}
+
+form {
+  width: 40rem;
+  margin: auto;
+  background-color: rgb(246, 250, 255);
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+section {
+  margin-bottom: 1rem;
 }
 
 ul {
@@ -14,64 +27,73 @@ ul {
   padding: 0;
 }
 
-form {
-  width: 30rem;
-  margin: 3rem auto;
-  background-color: rgb(255, 255, 255);
-  padding: 1rem;
-  border-radius: 6px;
-}
-
 label {
-  margin-bottom: 0.5rem;
+  color: rgb(66, 76, 97);
   display: block;
+  margin: 0.5rem 0;
 }
 
 input,
 textarea,
 select {
+  font: inherit;
+  padding: 0.5rem;
+  border: 1px solid rgb(152, 159, 184);
   width: 100%;
   display: block;
-  margin-bottom: 1rem;
+  border-radius: 4px;
   box-sizing: border-box;
-  font: inherit;
-  border: 1px solid rgb(184, 184, 184);
-  padding: 0.25rem;
-  color: rgb(61, 58, 58);
 }
 
-textarea{
-  resize: vertical;
+textarea {
+  resize: none;
 }
 
 input:focus,
 textarea:focus {
-  background-color: rgb(219, 190, 253);
-  color: rgb(32, 5, 63);
-  border-color: rgb(32, 5, 63);
+  background-color: rgb(217, 227, 247);
 }
 
 button {
-  display: block;
   font: inherit;
-  background-color: rgb(32, 5, 63);
-  color: white;
-  border: 1px solid rgb(32, 5, 63);
+  border: 1px solid rgb(51, 67, 100);
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
 }
 
-button:hover {
-  background-color: rgb(52, 14, 95);
-  border-color: rgb(52, 14, 95);
+#form-actions {
+  text-align: right;
 }
 
-.form-control-inline {
+.btn-filled {
+  background-color: rgb(51, 67, 100);
+  color: white;
+}
+
+.btn-empty {
+  background-color: transparent;
+  color: rgb(51, 67, 100);
+}
+
+.btn-filled:hover {
+  background-color: rgb(69, 89, 129);
+  border-color: rgb(69, 89, 129);
+}
+
+.btn-empty:hover {
+  background-color: rgb(208, 215, 230);
+}
+
+.inline-control {
   display: flex;
 }
 
-.form-control-inline input {
+.inline-control label {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
+.inline-control input {
   width: auto;
-  margin-right: 0.5rem;
 }
