@@ -1,16 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 body {
-  background-color: rgb(30, 30, 30);
-  margin: 8rem;
-  font-family: "Roboto", sans-serif;
+  background-color: rgb(31, 30, 30);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 form {
   width: 30rem;
   margin: 3rem auto;
   background-color: rgb(255, 255, 255);
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 6px;
 }
 
@@ -19,7 +27,9 @@ label {
   display: block;
 }
 
-input {
+input,
+textarea,
+select {
   width: 100%;
   display: block;
   margin-bottom: 1rem;
@@ -27,27 +37,41 @@ input {
   font: inherit;
   border: 1px solid rgb(184, 184, 184);
   padding: 0.25rem;
-  color: gray;
+  color: rgb(61, 58, 58);
 }
 
-input:focus {
-  outline: none;
-  background-color: rgb(253, 134, 255);
-  border-color: rgb(0, 0, 0);
-  color: rgb(0, 0, 0);
+textarea{
+  resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+  background-color: rgb(219, 190, 253);
+  color: rgb(32, 5, 63);
+  border-color: rgb(32, 5, 63);
 }
 
 button {
   display: block;
   font: inherit;
-  background-color: black;
+  background-color: rgb(32, 5, 63);
   color: white;
-  border: 1px solid black;
-  border-radius: 6px;
+  border: 1px solid rgb(32, 5, 63);
   padding: 0.5rem 1.5rem;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-button:hover{
-    background-color: gray;
+button:hover {
+  background-color: rgb(52, 14, 95);
+  border-color: rgb(52, 14, 95);
+}
+
+.form-control-inline {
+  display: flex;
+}
+
+.form-control-inline input {
+  width: auto;
+  margin-right: 0.5rem;
 }
