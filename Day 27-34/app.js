@@ -10,5 +10,5 @@ let info = {
   isMale: true,
   hobbies: ["Cricket", "Video Games", "Movies"],
 };
-
+console.dir(document)
 alert(JSON.stringify(info));
