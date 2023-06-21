@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced JS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <script src="app.js" defer></script> -->
+    <script>
+      window.addEventListener('DOMContentLoaded', () => {
+        let productNameInput = document.getElementById("product-name");
+        let remainingCharsSpan = document.getElementById("remaining-chars");
+        let maxlen = productNameInput.maxLength;
+
+        console.log(maxlen);
+
+        function updateChars(event) {
+          let enteredChars = event.target.value;
+          let enteredCharsLength = enteredChars.length;
+          let remainingChars = maxlen - enteredCharsLength;
+          remainingCharsSpan.textContent = remainingChars;
+
+          const spanElement = document.getElementById('remaining-chars');
+          spanElement.className = 'warning'
+          
+        }
+
+        productNameInput.addEventListener("input", updateChars);
+      });
+
+    </script>
+  </head>
+  <body>
+    <div class="control">
+      <label for="product-name"> Product Name </label>
+      <input type="text" id="product-name" name="product-name" maxlength="60" />
+      <span id="charcount"><span id="remaining-chars">60</span>/60</span>
+    </div>
+    <button>Submit</button>
+  </body>
+</html>
