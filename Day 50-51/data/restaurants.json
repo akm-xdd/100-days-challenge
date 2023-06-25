@@ -1,0 +1,30 @@
+[
+  {
+    "name": "test",
+    "address": "Test Address, Test City",
+    "cuisine": "Indian",
+    "website": "https://indianfood.com",
+    "description": "It's awesome"
+  },
+  {
+    "name": "Test2",
+    "address": "Test Address 2, Test City2",
+    "cuisine": "Italian",
+    "website": "https://italianfood.com",
+    "description": "It's is great"
+  },
+  {
+    "name": "Test3",
+    "address": "Test Address 3, Test City 3",
+    "cuisine": "French",
+    "website": "https://frenchfood.com",
+    "description": "It 's mid"
+  },
+  {
+    "name": "Test 4",
+    "address": "Test Address 4, Test City 4",
+    "cuisine": "German",
+    "website": "https://germanfood.com",
+    "description": "It's dogwater"
+  }
+]
