@@ -1,11 +1,14 @@
 const fs = require("fs/promises");
 
-function readFile(){
-    let fileData;
-    fileData = fs.readFile("data.txt").then(function(fileData){
-        console.log(fileData.toString());
-    });
-    console.log("Hello there")
-}
+async function readFile() {
+  let fileData;
+  try {
+    fileData = await fs.readFile("data.txt");
+  } catch (err) {
+    console.log(err);
+  }
+  console.log("Hello there");
+  console.log(fileData.toString());
 
+}
 readFile();
