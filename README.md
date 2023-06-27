@@ -9,6 +9,10 @@ I have taken this challenge to keep up and add to my existing knowledge every we
 Current Goal: Do my module uploads on time
 
 
-Updates: The challenge is almost at midway. I became irregular due to end semester exams. Day 1 to 39 was hell of a ride. From Day 39-47, I learned core Javascript and Bootstrap. From day 48, I am onwards to backend development for a while.
+Updates:
+
+1. The challenge is almost at midway. I became irregular due to end semester exams. Day 1 to 39 was hell of a ride. From Day 39-47, I learned core Javascript and Bootstrap. From day 48, I am onwards to backend development for a while.
+
+2. Day 57-59 included learning MySQL. I have skipped these days in the repo. Onwards to MySQL and NodeJS connectivity.
 
 How to use? Download individual folders rather than the entire repo. Open in VS Code. Go Live and start editing
