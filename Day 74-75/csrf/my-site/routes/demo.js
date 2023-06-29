@@ -51,7 +51,7 @@ router.post('/signup', async function (req, res) {
     !enteredEmail ||
     !enteredConfirmEmail ||
     !enteredPassword ||
-    enteredPassword.trim() < 6 ||
+    enteredPassword.trim().length < 6 ||
     enteredEmail !== enteredConfirmEmail ||
     !enteredEmail.includes('@')
   ) {
@@ -154,7 +154,8 @@ router.get('/transaction', function (req, res) {
   if (!res.locals.isAuth) {
     return res.status(401).render('401');
   }
-  res.render('transaction');
+  const csrfToken = req.csrfToken();
+  res.render('transaction', { csrfToken: csrfToken });
 });
 
 router.post('/transaction', async function(req, res) {

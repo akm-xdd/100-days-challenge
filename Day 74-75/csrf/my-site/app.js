@@ -3,6 +3,7 @@ const path = require('path');
 const express = require('express');
 const session = require('express-session');
 const mongodbStore = require('connect-mongodb-session');
+const csrf = require('csurf');
 
 const db = require('./data/database');
 const demoRoutes = require('./routes/demo');
@@ -12,7 +13,7 @@ const MongoDBStore = mongodbStore(session);
 const app = express();
 
 const sessionStore = new MongoDBStore({
-  uri: 'mongodb://localhost:27017',
+  uri: 'mongodb://127.0.0.1:27017',
   databaseName: 'auth-demo',
   collection: 'sessions'
 });
@@ -32,6 +33,7 @@ app.use(session({
     maxAge: 2 * 24 * 60 * 60 * 1000
   }
 }));
+app.use(csrf());
 
 app.use(async function(req, res, next) {
   const user = req.session.user;
