@@ -15,4 +15,6 @@ Updates:
 
 2. Day 57-59 included learning MySQL. I have skipped these days in the repo. Onwards to MySQL and NodeJS connectivity.
 
+3. Day 94 included learning about deployments and hosting. Therefore, I have skipped this day in the repo.
+
 How to use? Download individual folders rather than the entire repo. Open in VS Code. Go Live and start editing
