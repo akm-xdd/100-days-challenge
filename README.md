@@ -17,4 +17,6 @@ Updates:
 
 3. Day 94 included learning about deployments and hosting. Therefore, I have skipped this day in the repo.
 
+4. Day 100 over. Challenge is complete.
+
 How to use? Download individual folders rather than the entire repo. Open in VS Code. Go Live and start editing
